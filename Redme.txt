@@ -1,0 +1,12 @@
+#for Aws-elasticbeanstalk-ec2-role creation please follow 
+Click on create role => AWS Service => Use case => EC2 => next
+Find and put a check mark on below policy
+
+AdministratorAccess-AWSElasticBeanstalk
+AWSElasticBeanstalkCustomPlatformforEC2Role
+AWSElasticBeanstalkRoleSNS
+AWSElasticBeanstalkWebTier
+
+Click on next
+
+Enter role name => aws-elasticbeanstalk-ec2-role
