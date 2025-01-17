@@ -52,6 +52,5 @@ resource "aws_instance" "vprofile-bastion" {
       "chmod +x /tmp/vprofile-db-deploy.sh",
       "/tmp/vprofile-db-deploy.sh"
     ]
-
   }
 }
